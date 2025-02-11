@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  background-image: url('assets/img/background.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.issues, .candidates, .donate, .contact {
+  padding: 20px;
+}
+
+.issues ul, .candidates ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.issues li, .candidates li {
+  margin-bottom: 10px;
+}
+
+.donate button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
